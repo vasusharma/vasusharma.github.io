@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Projects - Vasu Sharma</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+		
+		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
+<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1501706457" title="wsite-theme-css" />
+<link href='http://fonts.googleapis.com/css?family=Crete+Round:400,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+
+<style type='text/css'>
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+}</style>
+
+		<script>
+var STATIC_BASE = '//cdn1.editmysite.com/';
+var ASSETS_BASE = '//cdn2.editmysite.com/';
+var STYLE_PREFIX = 'wsite';
+</script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script>
+<script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script><script type="text/javascript"><!--
+	var IS_ARCHIVE = 1;
+	
+	function initFlyouts(){
+		initPublishedFlyoutMenus(
+			[{"id":"789189837529826454","title":"Home ","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"635823946258835325","title":"Academic Qualifications","url":"academic-qualifications.html","target":"","nav_menu":false,"nonclickable":false},{"id":"240569994608036540","title":"Projects","url":"projects.html","target":"","nav_menu":false,"nonclickable":false},{"id":"648851174184906900","title":"Publications","url":"publications.html","target":"","nav_menu":false,"nonclickable":false},{"id":"801107501679455707","title":"Academics","url":"academics.html","target":"","nav_menu":false,"nonclickable":false},{"id":"400547735810186846","title":"Extra Curriculars","url":"extra-curriculars.html","target":"","nav_menu":false,"nonclickable":false},{"id":"405828923223336777","title":"Positions Of Responsibility","url":"positions-of-responsibility.html","target":"","nav_menu":false,"nonclickable":false},{"id":"478277553532805583","title":"Contact Me","url":"contact-me.html","target":"","nav_menu":false,"nonclickable":false}],
+			"240569994608036540",
+			'',
+			'active',
+			false,
+			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+			{}
+		)
+	}
+//-->
+</script>
+		
+		
+	</head>
+	<body class=" no-header-page wsite-theme-light  wsite-page-projects"><div class="header-wrapper">
+	<div id="header">
+		<table id="header-right">
+			<tr>
+				<td class="phone-number"><span class="wsite-text wsite-phone">
+	"Today I will do what others won't so that tomorrow I can do what others can't" &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Connect to me via-
+</span></td>
+				<td class="social"><div style="text-align:left;"><div style="height:0px;overflow:hidden"></div>
+<span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-facebook' href='https://www.facebook.com/vasu.sharma.712' target='_blank'><span class='wsite-social-item-inner'></span></a><a class='last-child wsite-social-item wsite-social-mail' href='mailto:sharma.vasu55@gmail.com' target='_blank'><span class='wsite-social-item-inner'></span></a></span>
+<div style="height:0px;overflow:hidden"></div></div></td>
+				<td class="search"></td>
+			</tr>
+		</table>
+		<div style="clear:both;"></div>
+	</div>
+	<div class="container">
+		<span class="wsite-logo">
+
+	<a href="">
+	
+	<span id="wsite-title">Vasu Sharma</span>
+	
+	</a>
+
+</span>
+	</div>
+</div>
+<div id="wrapper">
+	<div class="container">
+		<div id="topnav">
+			<ul class="wsite-menu-default">
+					<li id="pg789189837529826454" class="wsite-menu-item-wrap">
+						<a
+									href="index.html"
+							class="wsite-menu-item"
+							>
+							Home 
+						</a>
+						
+					</li>
+					<li id="pg635823946258835325" class="wsite-menu-item-wrap">
+						<a
+									href="academic-qualifications.html"
+							class="wsite-menu-item"
+							>
+							Academic Qualifications
+						</a>
+						
+					</li>
+					<li id="active" class="wsite-menu-item-wrap">
+						<a
+									href="projects.html"
+							class="wsite-menu-item"
+							>
+							Projects
+						</a>
+						
+					</li>
+					<li id="pg648851174184906900" class="wsite-menu-item-wrap">
+						<a
+									href="publications.html"
+							class="wsite-menu-item"
+							>
+							Publications
+						</a>
+						
+					</li>
+					<li id="pg801107501679455707" class="wsite-menu-item-wrap">
+						<a
+									href="academics.html"
+							class="wsite-menu-item"
+							>
+							Academics
+						</a>
+						
+					</li>
+					<li id="pg400547735810186846" class="wsite-menu-item-wrap">
+						<a
+									href="extra-curriculars.html"
+							class="wsite-menu-item"
+							>
+							Extra Curriculars
+						</a>
+						
+					</li>
+					<li id="pg405828923223336777" class="wsite-menu-item-wrap">
+						<a
+									href="positions-of-responsibility.html"
+							class="wsite-menu-item"
+							>
+							Positions Of Responsibility
+						</a>
+						
+					</li>
+					<li id="pg478277553532805583" class="wsite-menu-item-wrap">
+						<a
+									href="contact-me.html"
+							class="wsite-menu-item"
+							>
+							Contact Me
+						</a>
+						
+					</li>
+			</ul>
+			<div style="clear:both"></div>
+		</div>
+	</div>
+	<div id="page">
+		<div id="shadow-bot">
+			<div id="shadow-mid">
+				<div id="banner">
+					<div id="banner-top">
+						<div id="banner-mid">
+							<div class="wsite-header"></div>
+						</div>
+					</div>
+				</div>
+				<div id="main">
+					<div id="content"><div id="wsite-content" class="wsite-elements wsite-not-footer">
+	<h2 class="wsite-content-title" style="text-align:left;">&nbsp;Internships</h2>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/2/2/9/6/22966618/published/cmu.png?1501705832" alt="Picture" style="width:219;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:right">
+<a>
+<img src="uploads/2/2/9/6/22966618/uoft-logo-svg_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:right">
+<a>
+<img src="uploads/2/2/9/6/22966618/xerox-logo_orig.jpeg" alt="Picture" style="width:294;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:right">
+<a>
+<img src="uploads/2/2/9/6/22966618/published/logo-epfl-svg.png?1501705841" alt="Picture" style="width:264;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:right">
+<a>
+<img src="uploads/2/2/9/6/22966618/published/abzooba.jpg?1501705837" alt="Picture" style="width:237;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div class="paragraph"><strong><font color="#2a2a2a">- &nbsp;</font></strong><strong><font color="#2a2a2a">&Eacute;cole Polytechnique F&eacute;d&eacute;rale de Lausanne (EPFL)</font></strong><strong><font color="#2a2a2a"><strong> &nbsp;</strong><br />&nbsp; &nbsp;Summer Intern, Machine Learning and Optimization Lab<br />&nbsp;&nbsp; Martin Jaggi | May 2017 - Jul 2017 | Lausanne, Switzerland</font></strong><ul><li><font color="#2a2a2a">"<em>Learning semantic sentence embeddings using generative models of text</em>".</font></li><li><font color="#2a2a2a">This project entailed on creating the Generative Adversarial network composed of Deep CNN's for text to learn semantic textual embeddings. The representations learned are trained in an unsupervised fashion and outperform major state of the art approaches on both supervised tasks like sentiment analysis and unsupervised ones like similarity matching.</font></li></ul> <strong><font color="#2a2a2a">- &nbsp; &nbsp;University of Toronto<br />&nbsp; &nbsp; &nbsp;Summer Intern, Machine Learning Team&nbsp;<br />&nbsp; &nbsp; &nbsp;Raquel Urtasun, Sanja Fidler | May 2016 &ndash; Jul 2016 | Toronto, Canada</font></strong><ul><li><font color="#2a2a2a">&nbsp;&ldquo;<em>FlowSeg: A Deep Learning based approach for simultaneous semantic segmentation and flow estimation from videos</em>&rdquo;</font></li><li><font color="#2a2a2a">&nbsp;The project focused on building Deep Convolutional Neural Network architectures to study the problem of Instance and Semantic segmentation of videos. We experiment with fairly advanced and novel Deep CNN architectures to jointly estimate semantic segmentation and flow from videos. The approach shows promising results on various datasets.</font></li></ul><br /><font color="#2a2a2a"><strong>- &nbsp; &nbsp;Carnegie Mellon University<br />&nbsp; &nbsp; &nbsp;Summer Intern, School of Computer Science&nbsp;<br />&nbsp; &nbsp; &nbsp;Bhiksha Raj, Rita Singh| May 2014 &ndash; Jul 2014 | Pittsburgh, USA</strong></font><ul><li><font color="#2a2a2a">''<em>Deep Recurrent Gated Neural Networks for Dynamic Audio Denoising</em>"</font></li><li><font color="#2a2a2a">The project focused on construction of a Deep Recurrent neural network to achieve signal reconstruction by denoising noise corrupted signals by dynamic spectral subtraction.</font></li><li><font color="#2a2a2a">Techniques used: Recurrent and Time Delay Neural Networks, Spectral Subtraction, Multi Layer Perceptrons and other Deep Learning techniques</font></li></ul><br /><font color="#2a2a2a"><strong>- &nbsp; &nbsp;Abzooba Inc.<br />&nbsp; &nbsp; &nbsp;Research Intern&nbsp;<br />&nbsp; &nbsp; &nbsp;Labhesh Patel | Aug 2016 &ndash; Ongoing | California, USA (working remotely)</strong></font><ul><li><font color="#2a2a2a">Worked on building &nbsp;''<em>A Smart E-commerce Virtual Assistant</em>"</font></li><li><font color="#2a2a2a">Implemented features like cloth parsing from images, similar image retrieval from a huge fashion catalogue, a state of the art Deep Recommender system and a multi turn conversational voice agent to facilitate user interaction</font></li><li>&nbsp;<font color="#2a2a2a"> Also worked on "<strong><em>Query based document retrieval</em></strong>"&nbsp;by learning rich semantic document embeddings using a deep LSTM pipeline and using these to find the match the queries to relevant documents</font></li><li><font color="#2a2a2a"><strong><em>"Abstractive summarization using Attention based encoder-decoder networks"</em>&nbsp;:&nbsp;</strong>Worked on building a deep residual LSTM pipeline which used temporal attention over both encoder and decoder networks to generate an abstractive summary of documents.</font></li></ul><br /><font color="#2a2a2a"><strong>- &nbsp; &nbsp;Xerox Research Labs, Europe<br />&nbsp; &nbsp; &nbsp;Research Intern, Computer Vision Team&nbsp;<br />&nbsp; &nbsp; &nbsp;Diane Larlus, Albert Gordo | Sep 2015 &ndash; Dec 2015 | Grenoble, France</strong></font><ul><li><font color="#2a2a2a">''<em>Large Scale Image Recognition using Deep Convolutional Neural Nets</em>"&nbsp;</font></li><li><font color="#2a2a2a">The projects primarily focused on constructing Deep Learning frameworks for Image Recognition. Worked on designing some novel Deep Learning frameworks for the image recognition task on the ImageNet dataset. Also made extensive use of GPUs and the popular Caffe library for training Deep Convolutional Neural Nets.</font></li></ul><br /><font color="#2a2a2a"><strong>- &nbsp; &nbsp;Xerox Research Labs, India<br />&nbsp; &nbsp; &nbsp;Research Intern, Speech Processing Team&nbsp;<br />&nbsp; &nbsp; &nbsp;Vivek Tyagi | May 2015 &ndash; Sep 2015 | Bangalore, India</strong></font><ul><li><font color="#2a2a2a">&nbsp;Worked on 3 projects during this internship: ''<em>Application of Deep Learning for Automatic Speech Recognition", ''A comprehensive analysis of Activation Functions in Deep Nets" </em>and<em> ''A new hashing technique to enhance Deep Net performance</em> ". Also got the <strong>Best Project award</strong> for the same.&nbsp;</font></li></ul><br /><font color="#2a2a2a"><strong>- &nbsp; &nbsp;Carnegie Mellon University<br />&nbsp; &nbsp; &nbsp;Winter School, School of Computer Science&nbsp;<br />&nbsp; &nbsp; &nbsp;Bhiksha Raj, Rita Singh| Nov 2013 &ndash; Dec 2013 | Bangalore, India</strong></font><ul><li><font color="#2a2a2a">&nbsp;Worked on '<em>'Identifying safest path in Real time based on crime records"</em> and<em> "Image Summarization using Topic Modelling</em>". Received <strong>Overall Best Project Award</strong>&nbsp;and <strong>Gandhian Young Technological Innovation Award</strong></font></li></ul></div>
+
+<h2 class="wsite-content-title">Other Projects</h2>
+
+<div class="paragraph"><font color="#2a2a2a"><strong>- &nbsp; </strong>&nbsp;<strong>"Segmentation Guided Attention Networks for Visual Question Answering"<br /></strong></font><strong>&nbsp; &nbsp; <font color="#2a2a2a">&nbsp;Course Project: Visual Recognition (Prof. Vinay Namboodiri)<br /></font></strong><ul><li><font color="#2a2a2a">This project involved enhancing the attention maps generated by the CNN for the task of visual question answering by using pixel level dense segmentation maps. The segmentation maps gave the network pixel level grounding enhancing them and giving an improved performance on the Visual7W dataset.</font><strong></strong><font color="#2a2a2a"></font><font color="#2a2a2a"><br /></font></li></ul><font color="#2a2a2a"><strong><br />- &nbsp;&nbsp;"Automatic Tagging of Images and Content Based Image Retrieval"<br />&nbsp; &nbsp; &nbsp;(Undergraduate Project with Prof. Harish Karnick )</strong></font><ul><li><font color="#2a2a2a">&nbsp;Designed a novel pipeline which combined a Deep ConvNet with Extreme Learning approaches for tagging of images and an LSTM for captioning them. Our model was able to handle potentially unbounded tag set and we also built a highly accurate Content Based Image retrieval system on top of it.</font></li></ul><br /><font color="#2a2a2a"><strong>- &nbsp; &nbsp;"Real Time Video Surveillance using Deep Convolutional Neural Networks"<br />&nbsp; &nbsp; &nbsp; Course Project: Machine Learning Techniques (Prof. Harish Karnick)</strong></font><ul><li><font color="#2a2a2a">&nbsp;Built a real time surveillance system which included object and entity detection and localisation along with face recognition and abnormal action detection. In this project we extended the Faster RCNN model and added time recurrent connections to model context across the video frames. The Face recognition and and abnormal action detection networks were integrated into this Recurrent Faster RCNN model using a novel combination layer and the whole network was trained in a joint end to end manner.</font></li></ul><br /><font color="#2a2a2a"><strong>- &nbsp; &nbsp;"Visual Storytelling"<br />&nbsp; &nbsp; &nbsp;Course Project: Recent Advances in Computer Vision (Prof. Gaurav Sharma)</strong></font><ul><li><font color="#2a2a2a">&nbsp;This task entails producing story like descriptions for a sequence of images. We experimented with a unique GRU based decoder which looks at all the encoder states simultaneously &nbsp;which allows the model to peek into relevant parts of the encoder states using a soft attention mechanism. We also use a bidirectional encoder and also implemented our own custom version of the beam search algorithm in a more parrallelized fashion rather than the traditionally used sequential version.</font></li></ul><font color="#2a2a2a">&nbsp;<br /><strong>- &nbsp; &nbsp;"An Automatic Review generator and Restaurant Recommender System"<br />&nbsp; &nbsp; &nbsp; Course Project: Natural Language Processing (Prof. Harish Karnick)</strong></font><ul><li><font color="#2a2a2a">&nbsp;We build a state of the art recommender system along with an automatic review summarization system to provide user with quick reviews and suggestions. We also implement a sentiment analysis system using Paragraph vectors to represent text documents and predict ratings from user reviews. This was trained jointly with a recurrent network based review generator network which enhanced the accuracy of both the networks.</font><br /><br /></li></ul><strong><font color="#2a2a2a">- &nbsp; &nbsp; "3Dify: Automatically convert 2D images and videos to 3D using Deep Neural Networks"<br /></font></strong>&nbsp; &nbsp; &nbsp; &nbsp;<strong><font color="#2a2a2a">Project for UnitedbyHCL Hackathon<br /></font></strong><ul><li><font color="#2a2a2a">Created a Deep Convolutional Network based pipeline to automatically learn 3D anaglyph maps from 2D images. Unlike other models this is trained directly on 3D images and learns the depth maps as implicit representations rather than learning them explicitly. We also created a web app around it.</font><strong></strong></li></ul><font color="#2a2a2a"><strong>- &nbsp; &nbsp;"DocGen: A novel Document Embedding technique"<br />&nbsp; &nbsp; &nbsp;(Supervised by Prof. Harish Karnick)</strong></font><ul><li><font color="#2a2a2a">&nbsp;This project involves working towards designing a Document Embedding technique which is inspired by Generative Adversarial Networks. I trained a generator and discriminator network simultaneously in an adversarial manner. Once trained this network can be used to produce the document embedding vectors which are the latent activation values of the code layer in the network when the document in passed through it. The work is presently ongoing .&nbsp;</font></li></ul><font color="#2a2a2a">&nbsp;<br /><strong>- &nbsp; &nbsp;"Artify: A Deep Neural Network based Image styling app"<br />&nbsp; &nbsp; &nbsp;Course Project: Software Engineering (Prof. TV Prabhakar)</strong></font><ul><li><font color="#2a2a2a">&nbsp; Created an stylistic image editor Android app which implemented the Perceptual Style transfer method using Deep Convolutional Neural Networks to fuse artistic styles into a given image. Followed proper software architecture and design practices and implemented a variety of tactics to enhance quality attributes of the system.</font></li></ul><strong><font color="#2a2a2a">- &nbsp; &nbsp;"Internet Procastinator: Studying the effect of a users browsing history on his/her GPA"<br />&nbsp;&nbsp; &nbsp;&nbsp;Course Project: Human Centered Computing (Prof. Nisheeth Srivastava)</font></strong><ul><li><font color="#2a2a2a">Used a NLP based pipeline including LDA and semantic document embeddings to analyze users browsing histories and then building interpretable machine learning models to predict one's GPA using them. The interpretable models allowed us to analyse the features which affect the GPA the most.</font></li></ul><font color="#2a2a2a"><strong>- &nbsp; &nbsp; "YAMDB: Yet Another Movie Database"<br />&nbsp; &nbsp; &nbsp; Course Project: Database Management Systems (Prof. Sumit Ganguly)</strong></font><ul><li><font color="#2a2a2a">&nbsp;Created an online movie database system similar to IMDb with the state of the art implementation of Recommender Systems. Also implemented concepts like database sharding, scalable database systems and policies to increase fault tolerance.</font><br /><br /></li></ul> <font color="#2a2a2a"><strong><span style="color:rgb(42, 42, 42)">-</span></strong><font color="#2a2a2a"><strong>&nbsp; &nbsp; &nbsp;</strong><strong style="color:rgb(42, 42, 42)">"Online File Sharing System with Collaborative Editing''</strong><br /><strong>&nbsp; &nbsp; &nbsp; </strong><strong style="color:rgb(42, 42, 42)">(Course Project Computing Laboratory-II under&nbsp;Prof. Arnab Bhattacharya)&nbsp;</strong></font></font><ul><li><span style="color:rgb(42, 42, 42)">Implemented file/folder sharing among multiple users, allowing upload/download from remote server.</span><br /><span style="color:rgb(42, 42, 42)">Modified ShareLatex to integrate with the system, allowing multiple users to collaboratively edit and render shared Tex files collaboratively. Used python client to synchronize the local and remote file systems.</span></li></ul><font color="#2a2a2a"><strong><span style="color:rgb(42, 42, 42)"> &nbsp;</span></strong><br /><font color="#2a2a2a"><strong>-</strong><font color="#2a2a2a"><strong>&nbsp; &nbsp; &nbsp;</strong><strong style="color:rgb(42, 42, 42)">"Extension of NachOS''</strong><br /><strong>&nbsp; &nbsp; &nbsp;&nbsp;<span style="color:rgb(42, 42, 42)">(Course Project Operating Systems under&nbsp;</span><span style="color:rgb(42, 42, 42)">Prof. Mainak Choudhari</span></strong><span style="color:rgb(42, 42, 42)"><strong>)</strong> &nbsp; &nbsp;</span></font></font></font><ul><li><span style="color:rgb(42, 42, 42)">Designed various functionalities in NachOS - instructional software in C++ to run as secondary OS on linux.</span></li><li><span style="color:rgb(42, 42, 42)">Implemented various system calls (fork, join) , various scheduling algorithms (FIFO, RR, Unix Scheduler), various techniques for synchronization (semaphores, condition variables), demand paging, shared memory and various page replacement algorithms(FIFO, LRU, LRU Clock).</span><br /><br /></li></ul><font color="#2a2a2a"><font color="#2a2a2a"><strong>-</strong><font color="#2a2a2a"><strong>&nbsp; &nbsp; &nbsp;</strong><strong>"</strong><strong style="color:rgb(42, 42, 42)">Education based Webapp for Primary education''</strong><span style="color:rgb(42, 42, 42)">&nbsp;</span><br /><strong>&nbsp; &nbsp; &nbsp;&nbsp;</strong><span style="color:rgb(42, 42, 42)">Secured 2nd Position in El-Eduvate (Techkriti, Technical Festival, IIT Kanpur)</span>&nbsp;</font></font></font><ul><li><span style="color:rgb(42, 42, 42)">The webapp was designed with several interactive applications and a highly attractive GUI to provide primary school students an exciting platform to learn new things away from the monotonous classroom environment.</span></li><li><span style="color:rgb(42, 42, 42)">Used HTML, CSS, Javascript, PHP to design webapp.</span><br /><br /></li></ul><font color="#2a2a2a"><font color="#2a2a2a"><strong>-</strong><font color="#2a2a2a"><strong>&nbsp; &nbsp; &nbsp;</strong><font color="#2a2a2a">"<strong>Karaoke Generator Webapp with vocal comparison''</strong></font><br /><strong>&nbsp; &nbsp; &nbsp;&nbsp;</strong><span style="color:rgb(42, 42, 42)">( Honorable Mention at Yahoo HackU!) &nbsp;</span>&nbsp; &nbsp;</font></font></font><ul><li><span style="color:rgb(42, 42, 42)">Given a song, the webapp muted the vocals, fetched the lyrics and allowed the user to sing along it.</span></li><li><span style="color:rgb(42, 42, 42)">Techniques Used: Audio Processing, Vocals extraction and removal, Heuristic based vocal comparison.</span>&#8203;</li></ul></div>
+
+<div class="paragraph" style="text-align:center;"><strong><font color="#2a2a2a"><font size="3">"Think like a man of action, act like a man of thought.&rdquo;</font></font></strong><br /><br /></div>
+</div>
+</div>
+				</div>
+				<div id="footer">Create a <a target="_top" href="http://www.weebly.com/">free web site</a> with <a target="_top" href="http://www.weebly.com/" title="free web site">Weebly</a></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+		
+	</body>
+</html>
