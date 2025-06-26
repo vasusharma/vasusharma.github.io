@@ -5,143 +5,149 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Vasu Sharma — Research Scientist</title>
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!-- Inter – a legible, classy UI typeface -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"> <!-- :contentReference[oaicite:1]{index=1} -->
 
 <style>
+/* ---------- THEME ---------- */
 :root{
-  --bg:#ffffff;
-  --fg:#111827;
-  --accent:#2563eb;
-  --muted:#6b7280;
-  --card:#f9fafb;
+  --bg:#F7F8FA;
+  --fg:#141414;
+  --accent:#2563EB;
+  --muted:#6B7280;
+  --card:#FFFFFF;
+  --radius:.75rem;
 }
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:'Inter',system-ui,sans-serif;font-size:17px;line-height:1.55;background:var(--bg);color:var(--fg)}
-a{color:var(--accent);text-decoration:none}
-a:hover{text-decoration:underline}
-header{display:flex;justify-content:space-between;align-items:center;padding:1.2rem 2rem;background:var(--bg);position:sticky;top:0;z-index:100;border-bottom:1px solid #e5e7eb}
-nav a{margin-left:1.5rem;font-weight:500}
-section{padding:4.5rem 2rem;max-width:960px;margin:auto}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-snap-type:y mandatory}      /* CSS Scroll‑Snap :contentReference[oaicite:2]{index=2} */
+body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6;font-size:17px}
+
+/* ---------- LAYOUT & NAV ---------- */
+header{position:sticky;top:0;z-index:100;background:var(--bg);border-bottom:1px solid #E5E7EB;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center}
+nav a{margin-left:1.5rem;font-weight:500;color:var(--fg);text-decoration:none}
+nav a:hover{text-decoration:underline;color:var(--accent)}
+section{min-height:100vh;                       /* Each section fills the viewport */
+        padding:5rem 2rem;max-width:980px;margin:auto;
+        scroll-snap-align:start}
+
+/* ---------- CARDS & TYPO ---------- */
 h1,h2,h3{font-weight:600;line-height:1.25;margin-bottom:1rem}
 h1{font-size:2.6rem}
 h2{font-size:1.9rem;margin-top:2rem}
-h3{font-size:1.25rem;margin-top:1.6rem}
+h3{font-size:1.3rem;margin-top:1.4rem}
 p{margin:.9rem 0}
-.card{background:var(--card);padding:1.4rem 1.6rem;border-radius:.6rem;margin:.9rem 0}
-ul{margin-left:1.1rem;padding-left:0}
-li{margin:.4rem 0}
-footer{padding:2.5rem 2rem;text-align:center;font-size:.95rem;color:var(--muted)}
-.btn{display:inline-block;background:var(--accent);color:#fff;padding:.7rem 1.1rem;border-radius:.4rem;font-weight:500;margin:.4rem .2rem}
+ul{margin-left:1.1rem}
+li{margin:.35rem 0}
+.card{background:var(--card);border-radius:var(--radius);padding:1.4rem 1.6rem;box-shadow:0 4px 12px rgba(0,0,0,.05);margin:.9rem 0}
+
+/* ---------- MEDIA ---------- */
+.profile-pic{width:140px;height:140px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 4px var(--card),0 6px 20px rgba(0,0,0,.1);margin-right:1.5rem}
+
+/* ---------- BUTTONS ---------- */
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:.7rem 1.2rem;border-radius:.5rem;font-weight:500;margin:.4rem .3rem;text-decoration:none}
 .btn:hover{opacity:.9}
-@media(max-width:680px){header{flex-direction:column;align-items:flex-start}nav{margin-top:.6rem}}
+
+/* ---------- PARALLAX GLINT ---------- */
+body::before{content:"";position:fixed;inset:0;background:url('https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_960_720.jpg') center/cover no-repeat;  /* royalty‑free texture */
+            transform:translateZ(-1px) scale(2);filter:blur(4px) opacity(.05);pointer-events:none}  /* Parallax illusion :contentReference[oaicite:3]{index=3} */
+
+/* ---------- FADE‑IN ON SCROLL ---------- */
+.fade{opacity:0;transform:translateY(20px);transition:all .8s cubic-bezier(.25,.1,.25,1)}
+.fade.visible{opacity:1;transform:none}
 </style>
 </head>
 <body>
 
 <header>
-  <div><strong>Vasu Sharma</strong></div>
+  <div style="display:flex;align-items:center">
+    <img src="profile.jpg" alt="Portrait of Vasu Sharma smiling" class="profile-pic"> <!-- Accessibility alt‑text :contentReference[oaicite:4]{index=4} -->
+    <strong>Vasu Sharma</strong>
+  </div>
   <nav>
-    <a href="#about">About</a>
-    <a href="#career">Career</a>
-    <a href="#education">Education</a>
-    <a href="#publications">Publications</a>
-    <a href="#contact">Contact</a>
+    <a href="#about">About</a><a href="#career">Career</a><a href="#education">Education</a>
+    <a href="#publications">Publications</a><a href="#contact">Contact</a>
   </nav>
 </header>
 
-<section id="about">
+<!-- ABOUT -->
+<section id="about" class="fade">
   <h1>Hi, I’m Vasu Sharma 🙂</h1>
   <p>I build <em>multimodal foundation models</em> that power generative AI agents.  
-  Currently, I lead applied research at <strong>Meta AI (FAIR)</strong>, where my work spans training &amp; scaling 100B‑parameter LLMs (Llama 3/4), early‑fusion models like <i>Chameleon</i>, and state‑of‑the‑art self‑supervised vision systems (<i>DINOv2</i>).</p>
-  <p>My broader interests include computer vision, NLP, audio‑video representation learning, agentic workflows and evaluation &amp; safety of large models.</p>
-
+     Currently, I lead applied research at <strong>Meta AI (FAIR)</strong>, focusing on 100B‑parameter LLMs and self‑supervised vision &amp; audio‑video systems.</p>
   <a href="#contact" class="btn">Get in touch</a>
 </section>
 
-<section id="career">
+<!-- CAREER -->
+<section id="career" class="fade">
   <h2>Career</h2>
-
+  <!-- Meta -->
   <div class="card">
     <h3>Applied Research Scientist Lead — Meta AI (FAIR)</h3>
     <p><em>Aug 2022 – Present · Menlo Park, CA</em></p>
     <ul>
-      <li>Tech‑lead for <strong>Llama 3/4</strong>, <strong>Chameleon</strong> and <strong>Mixture‑of‑Experts</strong> research.</li>
-      <li>Designed <strong>MaVIL</strong>, a masked audio‑video representation learner that surpassed supervised SoTA on AudioSet and VGGSound.</li>
-      <li>Drove data pruning pipelines (text‑quality aesthetics scoring) that cut corpus size ≈50 % with no performance loss.</li>
+      <li>Tech‑lead for <strong>Llama 3/4</strong>, <strong>Chameleon</strong> and <strong>MoE</strong> initiatives.</li>
+      <li>Designed <strong>MaVIL</strong>, a SOTA masked audio‑video learner.</li>
+      <li>Developed text‑quality scoring that halved training corpus size with no loss.</li>
     </ul>
   </div>
-
+  <!-- Amazon -->
   <div class="card">
     <h3>Applied Scientist — Amazon Alexa AI</h3>
     <p><em>Aug 2021 – Aug 2022 · Sunnyvale, CA</em></p>
-    <ul>
-      <li>Co‑founded the <strong>Alexa Arena</strong> embodied‑AI benchmark and open‑sourced simulator &amp; data.</li>
-      <li>Developed efficient multimodal transformers for real‑time dialog‑enabled navigation.</li>
-    </ul>
+    <ul><li>Co‑founded <strong>Alexa Arena</strong> embodied‑AI benchmark; built real‑time multimodal transformers.</li></ul>
   </div>
-
+  <!-- Citadel -->
   <div class="card">
     <h3>Quantitative Research Analyst — Citadel GQS</h3>
     <p><em>Aug 2019 – Aug 2021 · Chicago, IL</em></p>
-    <ul>
-      <li>Built automated ML pipelines for cross‑asset alpha construction and large‑scale time‑series modelling.</li>
-    </ul>
+    <ul><li>Automated cross‑asset alpha construction with large‑scale ML pipelines.</li></ul>
   </div>
 </section>
 
-<section id="education">
+<!-- EDUCATION -->
+<section id="education" class="fade">
   <h2>Education</h2>
-
-  <div class="card">
-    <h3>M.S. in Language Technologies — Carnegie Mellon University</h3>
-    <p>School of Computer Science, GPA 4.19/4.33 (dept rank #1)</p>
-  </div>
-
-  <div class="card">
-    <h3>B.Tech. in Computer Science &amp; Engineering — IIT Kanpur</h3>
-    <p>CPI 9.9/10; All‑India JEE Rank 165</p>
-  </div>
-
-  <div class="card">
-    <h3>AISSCE — St. Columba’s School</h3>
-    <p>Class XII (CBSE) 97 %</p>
-  </div>
+  <div class="card"><h3>M.S. Language Technologies — Carnegie Mellon University</h3><p>GPA 4.19/4.33 (dept rank #1)</p></div>
+  <div class="card"><h3>B.Tech. CSE — IIT Kanpur</h3><p>CPI 9.9/10; All‑India JEE Rank 165</p></div>
+  <div class="card"><h3>AISSCE — St. Columba’s School</h3><p>97 %</p></div>
 </section>
 
-<section id="publications">
+<!-- PUBLICATIONS -->
+<section id="publications" class="fade">
   <h2>Selected Publications</h2>
-
   <ul>
     <li><strong>DINOv2:</strong> Learning Robust Visual Features without Supervision — <em>TMLR 2024</em></li>
     <li><strong>MAViL:</strong> Masked Audio‑Video Learners — <em>NeurIPS 2023</em></li>
     <li><strong>Chameleon:</strong> Mixed‑Modal Early‑Fusion Foundation Models — <em>arXiv 2024</em></li>
-    <li><strong>Branch‑Train‑MiX:</strong> Mixing Expert LLMs into a MoE — <em>COLM 2024</em></li>
-    <li><strong>Alexa Arena:</strong> A User‑Centric Platform for Embodied AI — <em>NeurIPS 2023</em></li>
-    <li><strong>CH‑MARL:</strong> A Multimodal Benchmark for Cooperative, Heterogeneous MARL — <em>RSS 2022</em></li>
+    <li><strong>Alexa Arena:</strong> Embodied‑AI Platform — <em>NeurIPS 2023</em></li>
     <li><strong>FLAP:</strong> Fast Language‑Audio Pre‑training — <em>ASRU 2024</em></li>
   </ul>
-
-  <p style="margin-top:1.8rem">Full list on <a href="https://scholar.google.com/citations?hl=en&user=PLUB4dIAAAAJ" target="_blank">Google Scholar ↗</a>.</p>
+  <p style="margin-top:1.8rem">See everything on <a href="https://scholar.google.com/citations?hl=en&user=PLUB4dIAAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a>.</p>
 </section>
 
-<section id="contact">
+<!-- CONTACT -->
+<section id="contact" class="fade">
   <h2>Contact</h2>
-  <p>I’m always open to interesting research collaborations and speaking engagements.</p>
-
+  <p>I’m always open to research collaborations and speaking engagements.</p>
   <p>
-    <a class="btn" href="mailto:sharma.vasu55@gmail.com">Email me</a>
-    <a class="btn" href="https://www.linkedin.com/in/vasu-sharma55/" target="_blank">LinkedIn</a>
-    <a class="btn" href="https://scholar.google.com/citations?hl=en&user=PLUB4dIAAAAJ" target="_blank">Scholar</a>
-    <a class="btn" href="resume.pdf" download>Resume PDF</a>
+    <a class="btn" href="mailto:sharma.vasu55@gmail.com" rel="noopener">Email me</a>
+    <a class="btn" href="https://www.linkedin.com/in/vasu-sharma55/" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://scholar.google.com/citations?hl=en&user=PLUB4dIAAAAJ" target="_blank" rel="noopener">Scholar</a>
+    <a class="btn" href="resume.pdf" download rel="noopener">Resume PDF</a>
   </p>
 </section>
 
-<footer>
+<footer style="padding:2rem;text-align:center;font-size:.9rem;color:var(--muted)">
   © 2025 Vasu Sharma.  Built with ❤️ and GitHub Pages.
 </footer>
 
+<!-- ---------- FADE‑IN SCRIPT (≈1 KB GZIP) ---------- -->
+<script>
+const observer = new IntersectionObserver((ents)=>{
+  ents.forEach(ent=>ent.isIntersecting && ent.target.classList.add('visible'));
+},{threshold:.15});
+document.querySelectorAll('.fade').forEach(el=>observer.observe(el)); /* IO API :contentReference[oaicite:5]{index=5} */
+</script>
 </body>
 </html>
 
