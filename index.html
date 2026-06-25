@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="color-scheme:dark">
+<html lang="en" style="color-scheme:light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,14 +15,14 @@
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg-primary:#0a0a0b;
-  --bg-secondary:#111113;
-  --bg-tertiary:#1a1a1d;
-  --text-primary:#ededef;
-  --text-secondary:#9a9a9e;
-  --text-tertiary:#6b6b6f;
-  --border-subtle:#222225;
-  --border-default:#2a2a2d;
+  --bg-primary:#ffffff;
+  --bg-secondary:#f7f8fa;
+  --bg-tertiary:#eef0f4;
+  --text-primary:#1a1a2e;
+  --text-secondary:#555566;
+  --text-tertiary:#888899;
+  --border-subtle:#e2e4e9;
+  --border-default:#d5d7dc;
   --font:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
 }
 html{background:var(--bg-primary);color:var(--text-primary);font-family:var(--font);line-height:1.6;-webkit-font-smoothing:antialiased}
@@ -32,7 +32,7 @@ img{display:block;max-width:100%}
 ul{list-style:none}
 
 /* Nav */
-.nav{position:sticky;top:0;z-index:50;border-bottom:1px solid var(--border-subtle);background:rgba(10,10,11,.8);backdrop-filter:blur(12px)}
+.nav{position:sticky;top:0;z-index:50;border-bottom:1px solid var(--border-subtle);background:rgba(255,255,255,.85);backdrop-filter:blur(12px)}
 .nav-inner{max-width:56rem;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem}
 .nav-logo{font-weight:600;font-size:.875rem;letter-spacing:-.02em}
 .nav-links{display:flex;gap:1rem;align-items:center}
@@ -76,11 +76,13 @@ ul{list-style:none}
 
 /* Timeline */
 .timeline{margin-top:2rem}
-.tl-item{position:relative;padding-left:1.5rem;padding-bottom:2.5rem;border-left:2px solid var(--border-subtle)}
+.tl-item{display:flex;gap:1rem;padding-bottom:2rem}
 .tl-item:last-child{padding-bottom:0}
-.tl-dot{position:absolute;left:-5px;top:6px;width:8px;height:8px;border-radius:9999px;background:var(--text-primary)}
+.tl-content{min-width:0;flex:1}
+.tl-dot{display:none}
 .tl-role{font-size:.875rem;font-weight:600}
 .tl-org{font-size:.875rem;color:var(--text-secondary)}
+.org-logo{width:44px;height:44px;border-radius:10px;object-fit:contain;flex-shrink:0;margin-top:2px}
 .tl-period{font-size:.75rem;color:var(--text-tertiary);font-weight:500}
 .tl-desc{margin-top:.25rem;font-size:.8125rem;color:var(--text-secondary);line-height:1.65}
 .tl-highlights{margin-top:.5rem;display:grid;gap:.375rem}
@@ -102,6 +104,7 @@ ul{list-style:none}
 .edu-school{font-size:1.125rem;font-weight:600}
 .edu-degree{font-size:.9375rem;color:var(--text-secondary)}
 .edu-sub{font-size:.75rem;color:var(--text-tertiary);font-weight:500}
+.edu-logo{width:44px;height:44px;border-radius:10px;object-fit:contain;flex-shrink:0}
 
 /* Advising */
 .adv-grid{margin-top:2rem;display:grid;gap:1rem}
@@ -145,7 +148,7 @@ ul{list-style:none}
 <!-- Nav -->
 <nav class="nav">
   <div class="nav-inner">
-    <span class="nav-logo">VS</span>
+    <span class="nav-logo"></span>
     <div class="nav-links">
       <a href="https://www.linkedin.com/in/vasu-sharma55/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
@@ -200,6 +203,107 @@ ul{list-style:none}
   </div>
 </div>
 
+<!-- Experience -->
+<div class="section-alt">
+  <section class="section">
+    <h2 class="sh">Experience</h2>
+    <div class="timeline">
+
+      <div class="tl-item">
+        <img src="https://www.google.com/s2/favicons?domain=pocketfm.com&sz=128" alt="Pocket FM" class="org-logo">
+        <div class="tl-content">
+        <div>
+          <span class="tl-role">Head of Artificial Intelligence</span>
+          <span class="tl-org" style="margin-left:.5rem">Pocket FM</span>
+        </div>
+        <p class="tl-period">2026 — Present &middot; San Francisco Bay Area</p>
+        <p class="tl-desc">Leading AI at Pocket Entertainment, a Lightspeed-backed startup with 300M+ users. Built and scaled a 60-person AI org across GenAI Research, Applications, and Personalization.</p>
+        <div class="tl-highlights">
+          <div class="tl-hl"><span class="tl-hl-dot"></span>Developing custom LLMs and diffusion models for long-form, multimodal storytelling</div>
+          <div class="tl-hl"><span class="tl-hl-dot"></span>Creating the world's best creative writing model for long-form content generation</div>
+          <div class="tl-hl"><span class="tl-hl-dot"></span>Architecting agentic content generation pipelines ingesting billions of tokens monthly</div>
+          <div class="tl-hl"><span class="tl-hl-dot"></span>Building the most performant multilingual narrative TTS model</div>
+        </div>
+      </div></div>
+
+      <div class="tl-item">
+        <img src="https://www.google.com/s2/favicons?domain=tesla.com&sz=128" alt="Tesla" class="org-logo">
+        <div class="tl-content">
+        <div>
+          <span class="tl-role">Senior Staff ML Scientist &amp; World Models Tech Lead</span>
+          <span class="tl-org" style="margin-left:.5rem">Tesla Optimus</span>
+        </div>
+        <p class="tl-period">2025 — 2026 &middot; Palo Alto, CA</p>
+        <p class="tl-desc">Built causal, real-time, dynamic world models for closed-loop RL training on humanoid robotics.</p>
+        <div class="tl-highlights">
+          <div class="tl-hl"><span class="tl-hl-dot"></span>Designed the flagship multimodal foundational model (TRON) for Optimus and Tesla FSD</div>
+          <div class="tl-hl"><span class="tl-hl-dot"></span>Improved DiT-based video generation throughput by ~100x via efficient attention</div>
+          <div class="tl-hl"><span class="tl-hl-dot"></span>Enhanced visual quality on Wan3.x video generation with high-motion MoE expert</div>
+          <div class="tl-hl"><span class="tl-hl-dot"></span>Created high-fidelity auto-labelling pipeline for automated annotations at scale</div>
+        </div>
+      </div></div>
+
+      <div class="tl-item">
+        <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=128" alt="Meta" class="org-logo">
+        <div class="tl-content">
+        <div>
+          <span class="tl-role">Applied Research Scientist Lead</span>
+          <span class="tl-org" style="margin-left:.5rem">Meta (FAIR / MSL)</span>
+        </div>
+        <p class="tl-period">2022 — 2025 &middot; Menlo Park, CA</p>
+        <p class="tl-desc">Worked with Facebook AI Research as part of Meta Superintelligence Labs on large-scale multimodal foundational models.</p>
+        <div class="tl-highlights">
+          <div class="tl-hl"><span class="tl-hl-dot"></span>DINOv2: Learning Robust Visual Features without Supervision (TMLR)</div>
+          <div class="tl-hl"><span class="tl-hl-dot"></span>Chameleon: Mixed-Modal Early-Fusion Foundation Models</div>
+          <div class="tl-hl"><span class="tl-hl-dot"></span>CM3Leon: Scaling Autoregressive Multi-Modal Models (NeurIPS)</div>
+          <div class="tl-hl"><span class="tl-hl-dot"></span>MetaCLIP: Demystifying CLIP Data (ICLR 2024)</div>
+          <div class="tl-hl"><span class="tl-hl-dot"></span>MaViL: Masked Audio-Video Learners (NeurIPS 2023)</div>
+          <div class="tl-hl"><span class="tl-hl-dot"></span>Data, post-training and evals for Llama 3 and Llama 4</div>
+        </div>
+      </div></div>
+
+      <div class="tl-item">
+        <img src="https://www.google.com/s2/favicons?domain=citadel.com&sz=128" alt="Citadel" class="org-logo">
+        <div class="tl-content">
+        <div>
+          <span class="tl-role">Quantitative Researcher</span>
+          <span class="tl-org" style="margin-left:.5rem">Citadel</span>
+        </div>
+        <p class="tl-period">2019 — 2024 &middot; Chicago, IL</p>
+        <p class="tl-desc">Leveraged machine learning and statistical methods to model financial markets and time-series data at scale.</p>
+      </div></div>
+
+      <div class="tl-item">
+        <img src="https://www.google.com/s2/favicons?domain=amazon.com&sz=128" alt="Amazon" class="org-logo">
+        <div class="tl-content">
+        <div>
+          <span class="tl-role">Applied Scientist</span>
+          <span class="tl-org" style="margin-left:.5rem">Amazon Lab126 (Alexa AI)</span>
+        </div>
+        <p class="tl-period">2021 — 2022 &middot; Sunnyvale, CA</p>
+        <p class="tl-desc">Worked on multimodal models, embodied AI, and the Alexa Prize SimBot Challenge for visual-language navigation.</p>
+        <div class="tl-highlights">
+          <div class="tl-hl"><span class="tl-hl-dot"></span>Alexa Arena: Interactive platform for embodied AI (NeurIPS 2023)</div>
+          <div class="tl-hl"><span class="tl-hl-dot"></span>CHMARL: Cooperative heterogeneous multi-agent RL benchmark (RSS 2022)</div>
+          <div class="tl-hl"><span class="tl-hl-dot"></span>&epsilon;-ViLM: Efficient Video-Language Model (WACV 2024)</div>
+        </div>
+      </div></div>
+
+      <div class="tl-item">
+        <img src="https://www.google.com/s2/favicons?domain=cmu.edu&sz=128" alt="CMU" class="org-logo">
+        <div class="tl-content">
+        <div>
+          <span class="tl-role">Graduate Research Assistant (PhD Dropout)</span>
+          <span class="tl-org" style="margin-left:.5rem">Carnegie Mellon University</span>
+        </div>
+        <p class="tl-period">2017 — 2019 &middot; Pittsburgh, PA</p>
+        <p class="tl-desc">Worked with Prof. Louis-Philippe Morency on multimodal machine learning, adversarial attacks on VQA, facial landmark detection, and natural visual perception.</p>
+      </div></div>
+
+    </div>
+  </section>
+</div>
+
 <!-- Research Interests -->
 <section class="section">
   <h2 class="sh">Research Interests</h2>
@@ -214,100 +318,6 @@ ul{list-style:none}
   </div>
 </section>
 
-<!-- Experience -->
-<div class="section-alt">
-  <section class="section">
-    <h2 class="sh">Experience</h2>
-    <div class="timeline">
-
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:0 .75rem">
-          <span class="tl-role">Head of Artificial Intelligence</span>
-          <span class="tl-org">Pocket FM</span>
-        </div>
-        <p class="tl-period">2026 — Present &middot; San Francisco Bay Area</p>
-        <p class="tl-desc">Leading AI at Pocket Entertainment, a Lightspeed-backed startup with 300M+ users. Built and scaled a 60-person AI org across GenAI Research, Applications, and Personalization.</p>
-        <div class="tl-highlights">
-          <div class="tl-hl"><span class="tl-hl-dot"></span>Developing custom LLMs and diffusion models for long-form, multimodal storytelling</div>
-          <div class="tl-hl"><span class="tl-hl-dot"></span>Creating the world's best creative writing model for long-form content generation</div>
-          <div class="tl-hl"><span class="tl-hl-dot"></span>Architecting agentic content generation pipelines ingesting billions of tokens monthly</div>
-          <div class="tl-hl"><span class="tl-hl-dot"></span>Building the most performant multilingual narrative TTS model</div>
-        </div>
-      </div>
-
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:0 .75rem">
-          <span class="tl-role">Senior Staff ML Scientist &amp; World Models Tech Lead</span>
-          <span class="tl-org">Tesla Optimus</span>
-        </div>
-        <p class="tl-period">2025 — 2026 &middot; Palo Alto, CA</p>
-        <p class="tl-desc">Built causal, real-time, dynamic world models for closed-loop RL training on humanoid robotics.</p>
-        <div class="tl-highlights">
-          <div class="tl-hl"><span class="tl-hl-dot"></span>Designed the flagship multimodal foundational model (TRON) for Optimus and Tesla FSD</div>
-          <div class="tl-hl"><span class="tl-hl-dot"></span>Improved DiT-based video generation throughput by ~100x via efficient attention</div>
-          <div class="tl-hl"><span class="tl-hl-dot"></span>Enhanced visual quality on Wan3.x video generation with high-motion MoE expert</div>
-          <div class="tl-hl"><span class="tl-hl-dot"></span>Created high-fidelity auto-labelling pipeline for automated annotations at scale</div>
-        </div>
-      </div>
-
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:0 .75rem">
-          <span class="tl-role">Applied Research Scientist Lead</span>
-          <span class="tl-org">Meta (FAIR / MSL)</span>
-        </div>
-        <p class="tl-period">2022 — 2025 &middot; Menlo Park, CA</p>
-        <p class="tl-desc">Worked with Facebook AI Research as part of Meta Superintelligence Labs on large-scale multimodal foundational models.</p>
-        <div class="tl-highlights">
-          <div class="tl-hl"><span class="tl-hl-dot"></span>DINOv2: Learning Robust Visual Features without Supervision (TMLR)</div>
-          <div class="tl-hl"><span class="tl-hl-dot"></span>Chameleon: Mixed-Modal Early-Fusion Foundation Models</div>
-          <div class="tl-hl"><span class="tl-hl-dot"></span>CM3Leon: Scaling Autoregressive Multi-Modal Models (NeurIPS)</div>
-          <div class="tl-hl"><span class="tl-hl-dot"></span>MetaCLIP: Demystifying CLIP Data (ICLR 2024)</div>
-          <div class="tl-hl"><span class="tl-hl-dot"></span>MaViL: Masked Audio-Video Learners (NeurIPS 2023)</div>
-          <div class="tl-hl"><span class="tl-hl-dot"></span>Data, post-training and evals for Llama 3 and Llama 4</div>
-        </div>
-      </div>
-
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:0 .75rem">
-          <span class="tl-role">Quantitative Researcher</span>
-          <span class="tl-org">Citadel</span>
-        </div>
-        <p class="tl-period">2019 — 2024 &middot; Chicago, IL</p>
-        <p class="tl-desc">Leveraged machine learning and statistical methods to model financial markets and time-series data at scale.</p>
-      </div>
-
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:0 .75rem">
-          <span class="tl-role">Applied Scientist</span>
-          <span class="tl-org">Amazon Lab126 (Alexa AI)</span>
-        </div>
-        <p class="tl-period">2021 — 2022 &middot; Sunnyvale, CA</p>
-        <p class="tl-desc">Worked on multimodal models, embodied AI, and the Alexa Prize SimBot Challenge for visual-language navigation.</p>
-        <div class="tl-highlights">
-          <div class="tl-hl"><span class="tl-hl-dot"></span>Alexa Arena: Interactive platform for embodied AI (NeurIPS 2023)</div>
-          <div class="tl-hl"><span class="tl-hl-dot"></span>CHMARL: Cooperative heterogeneous multi-agent RL benchmark (RSS 2022)</div>
-          <div class="tl-hl"><span class="tl-hl-dot"></span>&epsilon;-ViLM: Efficient Video-Language Model (WACV 2024)</div>
-        </div>
-      </div>
-
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:0 .75rem">
-          <span class="tl-role">Graduate Research Assistant (PhD Dropout)</span>
-          <span class="tl-org">Carnegie Mellon University</span>
-        </div>
-        <p class="tl-period">2017 — 2019 &middot; Pittsburgh, PA</p>
-        <p class="tl-desc">Worked with Prof. Louis-Philippe Morency on multimodal machine learning, adversarial attacks on VQA, facial landmark detection, and natural visual perception.</p>
-      </div>
-
-    </div>
-  </section>
-</div>
 
 <!-- Selected Publications -->
 <section class="section">
@@ -362,68 +372,41 @@ ul{list-style:none}
     <div class="edu-grid">
       <div>
         <p class="edu-degree">M.S. Machine Learning &amp; AI (PhD Dropout)</p>
-        <h3 class="edu-school">Carnegie Mellon University</h3>
+        <div style="display:flex;align-items:center;gap:.5rem"><img src="https://www.google.com/s2/favicons?domain=cmu.edu&sz=128" alt="CMU" class="edu-logo"><h3 class="edu-school">Carnegie Mellon University</h3></div>
         <p class="edu-sub">MLT at Language Technologies Institute (LTI)</p>
         <p class="edu-sub">GPA: 4.19/4.33 (Department Rank 1)</p>
       </div>
       <div>
         <p class="edu-degree">BTech. in Computer Science &amp; Engineering</p>
-        <h3 class="edu-school">Indian Institute of Technology, Kanpur</h3>
-        <p class="edu-sub">JEE Rank 165</p>
+        <div style="display:flex;align-items:center;gap:.5rem"><img src="https://www.google.com/s2/favicons?domain=iitk.ac.in&sz=128" alt="IIT Kanpur" class="edu-logo"><h3 class="edu-school">Indian Institute of Technology, Kanpur</h3></div>
+        
         <p class="edu-sub">GPA: 9.99/10.0</p>
+        <p class="edu-sub">JEE All India Rank: 165 (out of >1M people)</p>
       </div>
     </div>
   </section>
 </div>
 
-<!-- Advising & Teaching -->
+<!-- Musings -->
 <section class="section">
-  <h2 class="sh">Advising &amp; Teaching</h2>
-  <div class="adv-grid">
-    <article class="card">
-      <h3>Startup Advisor</h3>
-      <p>Advising multiple startup founders and VCs on AI strategies from ideation to Series A/B/C. Domains include multimodal foundation models, world models, RL environments, video generation, robotics, and data annotation.</p>
-    </article>
-    <article class="card">
-      <h3>Guest Lectures</h3>
-      <p>Regular guest lecturer at Stanford, CMU, MIT, Oxford, and O'Reilly on topics spanning multimodal AI, large-scale model training, and applied research.</p>
-    </article>
-    <article class="card" style="grid-column:1/-1">
-      <h3>AI Research Director — Algoverse</h3>
-      <p>Led the development of a cutting-edge AI research program empowering students to publish at ICML, NeurIPS, EMNLP, and EACL. Students admitted to CMU, Stanford, MIT, UC Berkeley and received offers from Anthropic, TikTok, and more.</p>
-    </article>
+  <h2 class="sh">Musings</h2>
+  <p class="sh-sub">Reflections on AI research, building at scale, and lessons from the frontier.</p>
+  <div class="cards" style="grid-template-columns:1fr">
+    <a href="https://www.linkedin.com/posts/vasu-sharma55_really-proud-to-share-the-first-two-accepted-activity-7462716730604150784-sQvs" target="_blank" rel="noopener noreferrer" class="card" style="text-decoration:none;transition:background .15s;display:block">
+      <p style="font-size:.9375rem;line-height:1.7;color:var(--text-primary)">&ldquo;Really proud to share the first two accepted papers from the team&rsquo;s research efforts at ICML 2026 (Culture x AI). Both papers sit in a space that has received far less attention from mainstream AI research: narratology, long-form storytelling, cultural adaptation, and how humans sustain emotional engagement across thousands of interactions with content.&rdquo;</p>
+      <div style="margin-top:.75rem;display:flex;justify-content:space-between;align-items:center"><span class="edu-sub">Jun 2025</span><span class="edu-sub" style="color:var(--text-secondary)">Read on LinkedIn &rarr;</span></div>
+    </a>
+    <a href="https://www.linkedin.com/posts/vasu-sharma55_the-sharpest-ai-memo-i-read-this-week-came-activity-7472349622787661824-TThH" target="_blank" rel="noopener noreferrer" class="card" style="text-decoration:none;transition:background .15s;display:block">
+      <p style="font-size:.9375rem;line-height:1.7;color:var(--text-primary)">&ldquo;The sharpest AI memo I read this week came from someone with a lot to lose. The durable advantage will not be &lsquo;we use the best model.&rsquo; Everyone will have access to strong models. The advantage will come from whether your company can turn daily work into a learning system. The scary failure mode is not &lsquo;AI replaces workers.&rsquo; It is companies outsourcing their own learning.&rdquo;</p>
+      <div style="margin-top:.75rem;display:flex;justify-content:space-between;align-items:center"><span class="edu-sub">Jun 2025</span><span class="edu-sub" style="color:var(--text-secondary)">Read on LinkedIn &rarr;</span></div>
+    </a>
+    <a href="https://www.linkedin.com/posts/vasu-sharma55_people-who-dont-follow-the-rules-are-often-activity-7471260777333788673-fnpe" target="_blank" rel="noopener noreferrer" class="card" style="text-decoration:none;transition:background .15s;display:block">
+      <p style="font-size:.9375rem;line-height:1.7;color:var(--text-primary)">&ldquo;There is a type of delusion that collapses when reality pushes back, and another type that keeps recruiting engineers, rewriting constraints, and shipping hardware until reality finally moves. SpaceX is the second kind. How many &lsquo;obviously impossible&rsquo; companies are we underestimating right now because they still look delusional from the outside?&rdquo;</p>
+      <div style="margin-top:.75rem;display:flex;justify-content:space-between;align-items:center"><span class="edu-sub">Jun 2025</span><span class="edu-sub" style="color:var(--text-secondary)">Read on LinkedIn &rarr;</span></div>
+    </a>
+    <a href="https://www.linkedin.com/posts/vasu-sharma55_latepost-activity-7364429883998920704-W6Sh" target="_blank" rel="noopener noreferrer" class="card" style="text-decoration:none;transition:background .15s;display:block">
+      <p style="font-size:.9375rem;line-height:1.7;color:var(--text-primary)">&ldquo;A while ago I had delivered a course on Multimodal AI with O&rsquo;Reilly! From reading O&rsquo;Reilly books growing up to delivering a course for them, life truly feels like coming full circle! Teaching is something I enjoy a lot. One of the easiest and most impactful ways to give back to the community that gave me so much.&rdquo;</p>
+      <div style="margin-top:.75rem;display:flex;justify-content:space-between;align-items:center"><span class="edu-sub">Jan 2025</span><span class="edu-sub" style="color:var(--text-secondary)">Read on LinkedIn &rarr;</span></div>
+    </a>
   </div>
-</section>
 
-<!-- Get in Touch -->
-<div class="section-alt">
-  <section class="section cta-center">
-    <h2 class="sh">Get in Touch</h2>
-    <p class="sh-sub">Interested in collaborating on research, startup advising, or speaking engagements? Reach out on LinkedIn.</p>
-    <div class="cta-buttons">
-      <a href="https://www.linkedin.com/in/vasu-sharma55/" target="_blank" rel="noopener noreferrer" class="btn btn-cta">
-        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-        Connect on LinkedIn
-        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
-      </a>
-      <a href="https://scholar.google.com/citations?hl=en&user=PLUB4dIAAAAJ" target="_blank" rel="noopener noreferrer" class="btn btn-cta">
-        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 100 14 7 7 0 000-14z"/></svg>
-        Google Scholar
-        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
-      </a>
-      <a href="https://vasusharma.github.io/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-cta">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-        Download Resume
-        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
-      </a>
-    </div>
-  </section>
-</div>
-
-<!-- Footer -->
-<footer class="footer">
-  <p>Vasu Sharma &middot; San Francisco Bay Area</p>
-</footer>
-
-</body>
-</html>
